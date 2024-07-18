@@ -15,5 +15,5 @@ create table if not exists product (
             constraint fk1crazyson references category
 );
 
-create sequence if not exists category_sequence increment by 50;
-create sequence if not exists product_sequence increment by 50;
+create sequence if not exists category_seq increment by 50;
+create sequence if not exists product_seq increment by 50;
